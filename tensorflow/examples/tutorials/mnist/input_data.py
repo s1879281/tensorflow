@@ -21,14 +21,12 @@ from __future__ import print_function
 import gzip
 import os
 
-
 import numpy
 from six.moves import urllib
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
 SOURCE_URL = 'http://yann.lecun.com/exdb/mnist/'
-a=5
 
 def maybe_download(filename, work_directory):
   """Download the data from Yann's website, unless it's already here."""
